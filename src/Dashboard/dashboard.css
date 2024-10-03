@@ -1,0 +1,126 @@
+/* Container for the entire dashboard */
+.dashboard-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    height:500px;
+    margin-bottom: 10%;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* User Info Section */
+  .user-info-section {
+    top: 10%;
+    display: flex;
+    align-items: center;
+    background-color: #d3d3d3;
+    height: 250px;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .user-avatar {
+    background-image: url('https://i.postimg.cc/MG3fXJCf/guest.png');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-top:5%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .user-details, .user-stats {
+    margin:5%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-details p, .user-stats p {
+    margin: 5px 0;
+    padding:20px
+  }
+  
+  .user-data-btn {
+    margin-top: 10px;
+    background-color: gray;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Home and Logout Buttons */
+  .home-btn, .logout-btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    width:120px;
+    height:70px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logout-btn {
+    border: 5px solid #000;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0) !important;
+  }
+  
+  .home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  /* Main Section for Table and About User (Side by Side) */
+  .main-section {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Table Section */
+  .table-section {
+    flex: 3;
+    margin-right: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #e74c3c;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  /* About User Section */
+  .about-user-section {
+    flex: 1;
+    margin-bottom: 5%;
+    background-color: #d3d3d3;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

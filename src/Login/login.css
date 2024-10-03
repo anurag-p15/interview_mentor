@@ -1,0 +1,68 @@
+.l-form {
+    position: relative;
+    background-color: #d76042;
+    padding: 40px;
+    width: 600px;
+    height:500px;
+    margin: 100px auto;
+    box-shadow:5px 10px rgba(210, 64, 16, 0.25);
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .l-form>h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+  }
+  
+  .l-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .l-input {
+    position: relative;
+    top:20px;
+    left:-150px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  input{
+    position: relative;
+    left:70px;
+    width:500px;
+    height:40px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #D04D25;
+    border: 1px solid #d04d25;
+  }
+  .l-form>.f-button{
+    color:white;
+    background-color: #000000;
+    border: 3px solid black;
+    position: absolute;
+    left:230px;
+    top:400px;
+  }
+  .c-button1,.c-button2{
+    position: absolute;
+    border-radius: 20px;
+    font-weight: 600;
+    left:30px;
+    top:480px;
+    width:200px;
+    height:50px;
+    color:rgb(0, 0, 0);
+    background-color: #D6D6D6;
+  }
+  .c-button1{
+    position: absolute;
+    left:450px;
+    top:480px;
+  }

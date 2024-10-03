@@ -1,0 +1,98 @@
+/* Main container */
+.r-form {
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 800px; /* Increased width to allow space for two columns */
+    margin: 30px auto;
+    height:1000px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.r-form h1 {
+    width: 100%; /* Ensure the heading takes full width */
+    margin-bottom: -40px;
+    font-size: 24px;
+}
+
+/* Styling form left and form right columns */
+.form-left, .form-right {
+    width: 48%; /* Give equal width to left and right sections */
+}
+
+.r-form label {
+    display: block;
+    position: relative;
+    left: 60px;
+    top:-10px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: black;
+    text-align: left; /* Align labels to the left */
+}
+
+.r-form input, .r-form textarea, .r-form select {
+    position: relative;   
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    left:10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: #B1B0B0;
+    font-size: 16px;
+}
+
+/* Ensure textarea fields also look consistent */
+.r-form textarea {
+    resize: vertical; /* Allow vertical resizing */
+    height: 100px;
+}
+
+/* Button styles */
+.button-group {
+    width: 100%; /* Ensure buttons take full width */
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between; /* Ensure space between buttons */
+}
+
+.register-button, .home-button, .existing-user-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    top:-40px;
+    width: 32%; /* Ensure each button takes up equal space */
+    text-align: center;
+}
+
+.home-button,.existing-user-button {
+    background-color: #a5a5a5;
+    border: 4px solid black;
+    color:black;
+    position: relative;
+    top:60px;
+}
+
+/* Add responsive behavior */
+@media (max-width: 768px) {
+    .form-left, .form-right {
+        width: 100%; /* On smaller screens, make form sections stack */
+    }
+
+    .button-group button {
+        width: 100%; /* Make buttons stack on smaller screens */
+        margin-bottom: 10px;
+    }
+}
