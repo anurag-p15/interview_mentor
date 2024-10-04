@@ -1,5 +1,4 @@
 import Landing from "./Home/Landing";
-import Form from "./Forms/Form";
 import Login from "./Login/login";
 import Register from "./Register/register";
 import Dashboard from "./Dashboard/dashboard";
@@ -11,7 +10,6 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route index element={<Landing />} />
-      <Route path="/form" element={<Form />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/dashboard" element={<Dashboard />} />
