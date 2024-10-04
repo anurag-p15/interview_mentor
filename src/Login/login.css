@@ -1,11 +1,20 @@
+body{
+  background: -moz-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+  background: -webkit-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+  background: linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#34dd6c",endColorstr="#216d6f",GradientType=1);
+}
+p,h1,h2,h3{
+  font-family: 'Hammersmith One';
+}
 .l-form {
+  font-family: 'Hammersmith one';
     position: relative;
-    background-color: #d76042;
+    background-color: rgb(112, 112, 112);
     padding: 40px;
     width: 600px;
     height:500px;
     margin: 100px auto;
-    box-shadow:5px 10px rgba(210, 64, 16, 0.25);
     border-radius: 20px;
     text-align: center;
   }
@@ -30,31 +39,35 @@
     padding: 10px;
     font-size: 24px;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 22px;
   }
   input{
     position: relative;
     left:70px;
+    font-size:18px;
     width:500px;
     height:40px;
     border-radius: 20px;
     font-weight: 600;
-    background-color: #D04D25;
-    border: 1px solid #d04d25;
+    background-color: rgb(153, 153, 153);
   }
   .l-form>.f-button{
+    font-family: 'Hammersmith one';
     color:white;
     background-color: #000000;
     border: 3px solid black;
     position: absolute;
     left:230px;
+    font-size: 18px;
     top:400px;
   }
   .c-button1,.c-button2{
+    font-family: 'Hammersmith one';
     position: absolute;
     border-radius: 20px;
     font-weight: 600;
     left:30px;
+    font-size: 18px;
     top:480px;
     width:200px;
     height:50px;

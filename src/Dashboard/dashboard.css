@@ -5,8 +5,8 @@
     padding: 20px;
     height:100%;
     font-size:18px;
+    border-radius: 20px;
     color: #fff;
-    font-family: Arial, sans-serif;
   }
   
   /* User Info Section */
@@ -14,7 +14,7 @@
     top: 10%;
     display: flex;
     align-items: center;
-    background-color: #d3d3d3;
+    background-color: rgb(112,112,112);
     height: 250px;
     color: black;
     padding: 20px;
@@ -60,6 +60,7 @@
     background-color: #000000;
     color: white;
     padding: 10px 20px;
+    border-radius:20px;
     font-weight: 600;
     width:120px;
     height:70px;
@@ -105,21 +106,24 @@
   }
   
   th, td {
-    border: 1px solid #e74c3c;
+    
+    border: 4px solid black;
     padding: 10px;
     text-align: center;
+    color:black;
+    font-weight:600;
   }
   
   th {
-    background-color: #e74c3c;
-    color: white;
+   background:#157792;
+    color: rgb(0, 0, 0);
   }
   
   /* About User Section */
   .about-user-section {
     flex: 1;
     margin-bottom: 5%;
-    background-color: #d3d3d3;
+    background-color: rgb(112,112,112);
     color: black;
     padding: 20px;
     border-radius: 20px;

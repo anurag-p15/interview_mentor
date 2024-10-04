@@ -1,13 +1,17 @@
 /* Footer */
 .foot{
-margin-top:5%;
-margin-bottom: 5%;
+    background: -moz-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    background: -webkit-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    background: linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#34dd6c",endColorstr="#216d6f",GradientType=1);
+padding-top:2%;
 width: 100%;
-height: 40px;
-border-top: 5px solid white;
+height: 60px;
+border-top: 5px solid black;
 }
 .foot>p{
     text-align: center;
-    font-size: 22px;
-    color:white;
+    font-weight:400;
+    font-size:22px;
+    color:black;
 }

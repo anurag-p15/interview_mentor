@@ -46,13 +46,13 @@ function Dashboard()
                 <td>01/02/2023</td>
                 <td>Algorithms</td>
                 <td>10</td>
-                <td><button onClick={() => navigate('/')} style={{width:'150px',height:'60px',backgroundColor:'#c8c8c8',border:'5px solid black',fontSize:'16px',fontWeight:600, color:'black'}}>View Analysis</button></td>
+                <td><button onClick={() => navigate('/')} style={{width:'150px',height:'40px',backgroundColor:'#c8c8c8',border:'5px solid black',fontSize:'16px',fontWeight:600, color:'black'}}>View Analysis</button></td>
               </tr>
               <tr>
                 <td>05/02/2023</td>
                 <td>Web Development</td>
                 <td>8</td>
-                <td><button onClick={() => navigate('/')} style={{width:'150px',height:'60px',backgroundColor:'#c8c8c8',border:'5px solid black',fontSize:'16px',fontWeight:600, color:'black'}}>View Analysis</button></td>
+                <td><button onClick={() => navigate('/')} style={{width:'150px',height:'40px',backgroundColor:'#c8c8c8',border:'5px solid black',fontSize:'16px',fontWeight:600, color:'black'}}>View Analysis</button></td>
               </tr>
             </tbody>
           </table>

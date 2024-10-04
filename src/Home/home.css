@@ -1,24 +1,43 @@
 button{
     cursor: pointer; 
 }
+p,h1,h2,h3{
+    font-family: 'Hammersmith One';
+}
+.blur-background {
+    filter: blur(5px);  /* Adjust the blur value as per your requirement */
+    transition: filter 0.3s ease;
+  }
+  .tv-frame {
+    width: 80%; /* Adjust width as needed */
+    margin: 20px auto; /* Center the frame on the page */
+    border: 8px solid #333; /* Dark border for the "TV frame" */
+    border-radius: 20px; /* Rounded corners to simulate a screen frame */
+    padding: 20px; /* Inner padding inside the frame */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow to give it depth */
+    background:rgba(0,0,0,0.5);
+     /* Optional: dark background behind the contents */
+}
+
 .container1{
+    background: -moz-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    background: -webkit-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    background: linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#34dd6c",endColorstr="#216d6f",GradientType=1);
     left:68px;
     top:64px;
-    width:1440px;
-    height:100%;  
+    width:100%;
+    height:80%;  
     display:flex;  
     font-weight:600px;
 }
 .left1{
-    margin-left:68px;
-    margin-top:64px;
     width:655px;
     height:840px;
-    background-color: #E9EAED;
+    background-color: #868686;
     float:left;
 }
 .right1 {
-    margin-top: 64px;
     width: 700px;
     height: 840px;
     background-image: url('https://i.postimg.cc/BbHjhLX2/boy.jpg');
@@ -29,6 +48,7 @@ button{
 .i-button{
     margin-left:200px;
     margin-top:15px;
+    border-radius:20px;
     width:210px;
     height:67px;
     background-color:black;
@@ -38,10 +58,10 @@ button{
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"');
 }
 .login-button, .d-button {
     width:180px;
+    border-radius:20px;
     height:67px;
     display: inline-block;  /* Make span behave like a block element but inline */
     margin-right: 50px;     /* Space between the two buttons */       /* Makes it look clickable */
@@ -49,6 +69,7 @@ button{
 }
 
 .login-button>p, .d-button>p {
+    border-radius:20px;
     margin: 0;  
     padding:20px;            /* Remove default paragraph margin */
     font-size: 20px;
@@ -56,14 +77,17 @@ button{
     text-align: center;
 }
 .login-button {
-    background-color: #D95D37;
-    color:black;
-    margin-left:190px;
+    background-color: rgb(45, 255, 112);
+    color:rgb(0, 0, 0);
+    margin-left:250px;
     margin-top: 10px;
 }
 .d-button{
-    background-color:#000000;
+    position:relative;
+    background-color:#000;
     color:rgb(255, 255, 255);
+    top: -65px;
+    margin-left: 30px;
 }
 
 .left1-text{
@@ -86,7 +110,6 @@ width: 100%;
 height: 30px;
 left: 5px;
 top: 108px;
-font-family: 'Hammersmith One';
 font-style: normal;
 font-weight: 400;
 font-size: 22px;
@@ -103,7 +126,6 @@ color: #000000;
 width: 512px;
 height: 130px;
 left: 0px;
-font-family: 'Hammersmith One';
 font-style: normal;
 font-weight: 600;
 font-size: 26px;
@@ -119,19 +141,19 @@ width: 503px;
 height: 60px;
 left: 5px;
 top: 331px;
-font-family: 'Hammersmith One';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 25px;
 display: flex;
 align-items: center;
-color: #2B2A2A;
+color: black;
 }
 
 .platform{
 width: 378px;
-height: 105px;
+height: 55px;
+border-radius: 20px;
 left: 0px;
 margin-top: 10%;
 top: 479px;
@@ -145,18 +167,22 @@ display: flex;
 align-items: center;
 background-color: #C8C8C8;
 color: #000000;
+border: 5px solid black;
 }
 
 .container2{
-margin-left:68px;
-margin-top: 5%;
-width: 14400px;
+background: -moz-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    background: -webkit-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    background: linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#34dd6c",endColorstr="#216d6f",GradientType=1);
+width: 100%;
 height: 840px;
-left: 68px;
 top: 1016px;
 display:flex;  
 }
-
+.blur {
+    filter: blur(5px);
+}
 .left2{
     width: 655px;
     height: 840px;
@@ -168,7 +194,7 @@ display:flex;
 .right2{
     width:700px;
     height:840px;
-    background-color: #D95D37;
+    background-color: rgb(28 177 77);
     float: right;
 }
 .headline{
@@ -178,7 +204,6 @@ height: 20px;
 left: 100px;
 margin-left: 70px;
 top: 47px;
-font-family: 'Hammersmith One';
 font-style: normal;
 font-weight: 600;
 font-size: 32px;
@@ -195,7 +220,6 @@ height: 543px;
 left: 55px;
 padding-left: 5%;
 top: calc(50% - 543px/2 - 33.5px);
-font-family: 'Hammersmith One';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
@@ -207,7 +231,11 @@ color: #000000;
 }
 
 .domain {
-    margin-top: 5%;
+    background: -moz-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    background: -webkit-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    background: linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#34dd6c",endColorstr="#216d6f",GradientType=1);
+    padding-top: 5%;
     width: 100%;
     color: white;
 }
@@ -219,7 +247,7 @@ color: #000000;
 }
 
 .carousel {
-    background-color: rgba(131, 131, 131, 0.25);
+    background-color: rgba(131, 131, 131, 0.5);
     width:100%;
     display: flex;
     justify-content: center;
@@ -248,6 +276,7 @@ color: #000000;
 
 .domain-card1,
 .domain-card2 {
+    border-radius:20px;
     width: 350px;
     height:350px; /* Adjust width for 4 items per slide */
     padding: 20px;
@@ -256,52 +285,52 @@ color: #000000;
 }
 
 .domain-card1 {
-    background-color: #D9D9D9;
+    background-color: #868686;
 }
 
 .domain-card2 {
-    background-color: #D95D37;
+    background-color:rgb(41 255 112);
 }
 .trynow-1{
-    background-color: #C8C8C8;
+    background-color: #c8c8c856;
     box-shadow: rgba(0, 0, 0, 0.25);
 }
 .trynow-2{
-    background-color: #dd552c;
+    background-color: rgb(13, 82, 36);
     box-shadow: rgba(78, 78, 78, 0.8);
 }
 .domain-card1 > p,
 .domain-card2 > p {
     padding-top: 20%;
+    color:white;
     padding-bottom: 20%;
-    font-family: 'Hammersmith One', sans-serif;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 26px;
     color: #000000;
     text-align: center;
 }
 
 .trynow-1,
 .trynow-2 {
+    border-radius: 20px;
     width: 100%; /* Full width for buttons */
     height: 50px; /* Fixed height for buttons */
     margin-top: 10px; /* Space above the button */
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid black;
-    box-shadow: rgba(0, 0, 0, 0.25);
 }
 
 .trynow-1 > p,
 .trynow-2 > p {
-    font-family: 'Hammersmith One', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
-    color: #000000;
+    color:rgb(255, 255, 255)
 }
-
+.trynow-1>p{
+    color:black;
+}
 .carousel-indicators {
     position: absolute;
     bottom: 10px; /* Position indicators at the bottom */
@@ -323,4 +352,42 @@ color: #000000;
 
 .indicator.active {
     background-color: #fff; /* Solid white when active */
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dim background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    padding: 20px;
+    border-radius: 10px;
+    width: 550px;
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Blur Effect */
+.blur {
+    filter: blur(5px);
 }
