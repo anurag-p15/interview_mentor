@@ -1,9 +1,4 @@
-body{
-  background: -moz-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
-  background: -webkit-linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
-  background: linear-gradient(90deg, rgba(52,221,108,1) 0%, rgba(33,109,111,1) 58%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#34dd6c",endColorstr="#216d6f",GradientType=1);
-}
+
 p,h1,h2,h3{
   font-family: 'Hammersmith One';
 }
