@@ -1,6 +1,10 @@
 button{
     cursor: pointer; 
 }
+body{
+    background:black;
+    color:white;
+}
 p,h1,h2,h3{
     font-family: 'Hammersmith One';
 }
@@ -11,7 +15,7 @@ p,h1,h2,h3{
   .tv-frame {
     width: 80%; /* Adjust width as needed */
     margin: 20px auto; /* Center the frame on the page */
-    border: 8px solid #333; /* Dark border for the "TV frame" */
+    border: 3px solid #333; /* Dark border for the "TV frame" */
     border-radius: 20px; /* Rounded corners to simulate a screen frame */
     padding: 20px; /* Inner padding inside the frame */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow to give it depth */
@@ -25,6 +29,7 @@ p,h1,h2,h3{
     flex-direction: row;
     width: 100%; /* Ensure full width is used */
     height: 80%;  
+    
 }
 
 .left1, .right1 {
@@ -34,7 +39,7 @@ p,h1,h2,h3{
 }
 
 .left1 {
-    background-color: #868686;
+    background-color: #E9EAED;
     display: flex; /* Center content vertically and horizontally if needed */
     flex-direction: column;
     justify-content: center;
@@ -88,7 +93,7 @@ p,h1,h2,h3{
     text-align: center;
 }
 .login-button {
-    background-color: rgb(45, 255, 112);
+    background-color: #D95D37;
     color:rgb(0, 0, 0);
     margin-left:250px;
     margin-top: 10px;
@@ -201,7 +206,7 @@ display:flex;
 .right2{
     width:700px;
     height:840px;
-    background-color: rgb(28 177 77);
+    background-color: #D95D37;
     float: right;
 }
 .left2,.right2{
@@ -294,18 +299,21 @@ color: #000000;
 }
 
 .domain-card1 {
-    background-color: #868686;
+    background-color: #D9D9D9;
 }
 
 .domain-card2 {
-    background-color:rgb(41 255 112);
+    background-color: #D95D37;
 }
 .trynow-1{
+    border:5px solid black;
     background-color: #c8c8c856;
     box-shadow: rgba(0, 0, 0, 0.25);
 }
 .trynow-2{
-    background-color: rgb(13, 82, 36);
+    border:5px solid black;
+    background-color: #dd552c;
+    color:black;
     box-shadow: rgba(78, 78, 78, 0.8);
 }
 .domain-card1 > p,
@@ -335,7 +343,6 @@ color: #000000;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    color:rgb(255, 255, 255)
 }
 .trynow-1>p{
     color:black;

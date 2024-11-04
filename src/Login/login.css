@@ -5,7 +5,7 @@ p,h1,h2,h3{
 .l-form {
   font-family: 'Hammersmith one';
     position: relative;
-    background-color: rgb(112, 112, 112);
+    background-color: #d76042;
     padding: 40px;
     width: 600px;
     height:500px;
@@ -44,7 +44,7 @@ p,h1,h2,h3{
     height:40px;
     border-radius: 20px;
     font-weight: 600;
-    background-color: rgb(153, 153, 153);
+     background-color: #D04D25;
   }
   .l-form>.f-button{
     font-family: 'Hammersmith one';

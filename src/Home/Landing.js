@@ -125,11 +125,11 @@ function Landing() {
                 <div className='carousel'>
                     <div className='carousel-inner'>
                         {Array.from({ length: totalSlides }, (_, slideIndex) => (
-                            <div className={`carousel-item ${slideIndex === currentIndex ? 'active' : ''}`} key={slideIndex}>
+                            <div  className={`carousel-item ${slideIndex === currentIndex ? 'active' : ''}`} key={slideIndex}>
                                 {domains.slice(slideIndex * 4, slideIndex * 4 + 4).map((domain, index) => (
                                     <div className={domain.className} key={index}>
                                         <p>{domain.name}</p>
-                                        <div><button onClick={()=>navigate('/form')} className={`trynow-${domain.className === 'domain-card1' ? '1' : '2'}`}>
+                                        <div><button onClick={openModal} className={`trynow-${domain.className === 'domain-card1' ? '1' : '2'}`}>
                                             <p>Try Now</p></button>
                                         </div>
                                     </div>
@@ -139,7 +139,7 @@ function Landing() {
                     </div>
                     <div className="carousel-indicators">
                         {Array.from({ length: totalSlides }, (_, index) => (
-                            <button
+                            <button 
                                 key={index}
                                 type="button"
                                 className={`indicator ${currentIndex === index ? 'active' : ''}`}
