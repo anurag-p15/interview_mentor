@@ -13,13 +13,13 @@ p,h1,h2,h3{
     transition: filter 0.3s ease;
   }
   .tv-frame {
-    width: 80%; /* Adjust width as needed */
-    margin: 20px auto; /* Center the frame on the page */
-    border: 3px solid #333; /* Dark border for the "TV frame" */
+     width: 80%;
+    margin: 20px auto; /* Center the frame on the page 
+    border: 3px solid #333; /* Dark border for the "TV frame" 
     border-radius: 20px; /* Rounded corners to simulate a screen frame */
-    padding: 20px; /* Inner padding inside the frame */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow to give it depth */
-    background: rgba(0, 0, 0, 0.5); /* Optional: dark background behind the contents */
+    padding: 20px; /* Inner padding inside the frame 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  Shadow to give it depth 
+    background: rgba(0, 0, 0, 0.5); Optional: dark background behind the contents */
     display: flex; /* Use flexbox to ensure full width is utilized */
     flex-direction: row; /* Ensure the items are side by side */
 }
